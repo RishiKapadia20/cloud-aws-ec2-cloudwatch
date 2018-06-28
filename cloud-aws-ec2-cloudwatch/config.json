@@ -1,7 +1,7 @@
 {
    "attribute" : [
       {
-         "arg1" : "/usr/local/nagios/etc/aws_credentials.cfg",
+         "arg1" : "/opt/opsview/monitoringscripts/etc/plugins/cloud-aws/aws_credentials.cfg",
          "arg2" : "",
          "arg4" : "eu-west-1",
          "label1" : "File Path",
@@ -123,7 +123,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -135,7 +135,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -154,9 +153,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -169,7 +168,7 @@
          "calculate_rate" : null,
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -181,7 +180,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -200,9 +198,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -215,7 +213,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -227,7 +225,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -246,9 +243,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -261,7 +258,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -273,7 +270,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -292,9 +288,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -307,7 +303,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -319,7 +315,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -338,9 +333,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -353,7 +348,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -365,7 +360,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -384,9 +378,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -399,7 +393,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -411,7 +405,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -430,9 +423,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -445,7 +438,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -457,7 +450,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -476,9 +468,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -491,7 +483,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -503,7 +495,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -522,9 +513,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -537,7 +528,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -549,7 +540,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -568,9 +558,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -583,7 +573,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -595,7 +585,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -614,9 +603,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
@@ -629,7 +618,7 @@
          "calculate_rate" : "no",
          "cascaded_from" : null,
          "check_attempts" : "3",
-         "check_freshness" : "0",
+         "check_freshness" : "1",
          "check_interval" : "300",
          "checktype" : {
             "name" : "Active Plugin"
@@ -641,7 +630,6 @@
          "event_handler" : "",
          "event_handler_always_exec" : "0",
          "flap_detection_enabled" : "1",
-         "freshness_type" : "renotify",
          "invertresults" : "0",
          "keywords" : [],
          "label" : null,
@@ -660,9 +648,9 @@
             "name" : "Cloud - AWS - EC2"
          },
          "snmptraprules" : [],
-         "stale_state" : "0",
-         "stale_text" : "",
-         "stale_threshold_seconds" : "3600",
+         "stale_state" : "3",
+         "stale_text" : "UNKNOWN: Service results are stale",
+         "stale_threshold_seconds" : "1800",
          "stalking" : "",
          "volatile" : "0",
          "warning_comparison" : null,
