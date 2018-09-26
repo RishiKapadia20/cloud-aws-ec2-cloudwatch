@@ -16,7 +16,7 @@ Opsview Monitor's AWS EC2 Opspack helps detect issues within your EC2 instance. 
 |AWS - EC2 - CPU Utilization | The percentage of allocated EC2 units that are in use
 |AWS - EC2 - Disk Read Ops | Must be an instance store volume. The number of completed read operations
 |AWS - EC2 - Disk Write Ops | Must be an instance store volume. The number of completed write operations
-|AWS - EC2 - Disk Write Bytes | Must be an instancve store volume. Bytes written to all instance store volumes available to the instance
+|AWS - EC2 - Disk Write Bytes | Must be an instance store volume. Bytes written to all instance store volumes available to the instance
 |AWS - EC2 - Disk Read Ops | Must be an instance store volume. Bytes read from all instance store volumes available to the instance
 |AWS - EC2 - Network In | The number of bytes received by the instance
 |AWS - EC2 - Network Out | The number of bytes sent out on all network interfaces by the instance
