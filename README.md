@@ -11,18 +11,18 @@ Opsview Monitor's AWS EC2 Opspack helps detect issues within your EC2 instance. 
 
 | Service Check | Description |
 |:------------- |:----------- |
-|AWS/EC2.CPUCreditUsage | Must be T2 instance. The number of CPU credits consumed
-|AWS/EC2.CPUCreditBalance | Must be T2 instance. The number of CPU credits available
-|AWS/EC2.CPUUtilization | The percentage of allocated EC2 units that are in use
-|AWS/EC2.DiskReadOps | The number of completed read operations
-|AWS/EC2.DiskWriteOps | The number of completed write operations
-|AWS/EC2.DiskWriteBytes | Bytes written to all instance store volumes available to the instance
-|AWS/EC2.DiskReadBytes | Bytes read from all instance store volumes available to the instance
-|AWS/EC2.NetworkIn | The number of bytes received by the instance
-|AWS/EC2.NetworkOut | The number of bytes sent out on all network interfaces by the instance
-|AWS/EC2.NetworkPacketsIn | The number of packets received on all network interfaces by the instance
-|AWS/EC2.NetworkPacketsOut |The number of packets sent out on all network interfaces by the instance
-|AWS/EC2.StatusCheckFailed | Reports whether the instance has passed both the instance status check and the system status check
+|AWS - EC2 - CPU Credit Usage | Must be T2 instance. The number of CPU credits consumed
+|AWS - EC2 - CPU Credit Balance | Must be T2 instance. The number of CPU credits available
+|AWS - EC2 - CPU Utilization | The percentage of allocated EC2 units that are in use
+|AWS - EC2 - Disk Read Ops | Must be an instance store volume. The number of completed read operations
+|AWS - EC2 - Disk Write Ops | Must be an instance store volume. The number of completed write operations
+|AWS - EC2 - Disk Write Bytes | Must be an instance store volume. Bytes written to all instance store volumes available to the instance
+|AWS - EC2 - Disk Read Ops | Must be an instance store volume. Bytes read from all instance store volumes available to the instance
+|AWS - EC2 - Network In | The number of bytes received by the instance
+|AWS - EC2 - Network Out | The number of bytes sent out on all network interfaces by the instance
+|AWS - EC2 - Network Packets In | The number of packets received on all network interfaces by the instance
+|AWS - EC2 - Network Packets Out |The number of packets sent out on all network interfaces by the instance
+|AWS - EC2 - Status Check Failed | Reports whether the instance has passed both the instance status check and the system status check
 ## Notes
 
 This Opspack knows when it was last run, so when testing the results in the troubleshoot section, you will need to wait a couple minutes each time you recheck the results. The time frame that is searched for is based around the last time the Opspack ran, so running it too quickly will result in no data being found and the service check going into an unknown.
